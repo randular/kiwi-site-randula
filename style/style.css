@@ -8,7 +8,7 @@
     position: relative;
 }
 
-#main-desc{
+#main-desc {
     border: 2px solid lightskyblue;
     margin: 30px 800px auto 180px;
     padding-bottom: 10px;
@@ -19,6 +19,18 @@
     position: relative;
 }
 
-#desc-first-part{
+#desc-first-part {
     color: red;
+}
+
+#picture-cont {
+    margin: 30px 800px auto 200px;
+    position: relative;
+}
+
+.desc-img {
+    width: 280px;
+    height: 300px;
+    padding: 5px;
+    object-fit: cover;
 }
