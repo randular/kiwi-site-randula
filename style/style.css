@@ -127,7 +127,7 @@
     color: white;
 }
 
-.summary-sub-headings:last-child {
+.summary-sub-headings:nth-last-child(2) {
     background-color: #9B0054;
 }
 
