@@ -43,12 +43,12 @@
 }
 
 #detail-desc-cont-inner-left {
-    width: 55%;
-    margin-right: 20px;
+    width: 500px;
+    padding-right: 25px;
 }
 
 #detail-desc-cont-inner-right {
-    width: 350px;
+    width: 370px;
     margin: 15px auto 20px 50px;
     background-color: #D9D9D9;
 }
@@ -91,4 +91,5 @@ footer {
     font-family: 'Leckerli One', sans-serif;
     padding-left: 350px;
     font-size: 60px;
+    position: relative;
 }
