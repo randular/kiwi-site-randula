@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Leckerli+One&family=Poppins:wght@500;700&display=swap');
 
 #header {
     margin: 50px 180px auto 100px;
@@ -44,7 +44,7 @@
 
 #detail-desc-cont-inner-left {
     width: 55%;
-    margin-right: 15px;
+    margin-right: 20px;
 }
 
 #detail-desc-cont-inner-right {
@@ -85,4 +85,10 @@
 
 .second-sub-para {
     margin-top: 20px;
+}
+
+footer {
+    font-family: 'Leckerli One', sans-serif;
+    padding-left: 350px;
+    font-size: 60px;
 }
