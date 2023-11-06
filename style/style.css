@@ -140,6 +140,9 @@
 
 #summary-hyperlink-font {
     color: #2942CA;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
 }
 
 #summary-animal-spec-details{
