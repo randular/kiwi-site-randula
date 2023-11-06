@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Leckerli+One&family=Poppins:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Lato&family=Leckerli+One&family=Lexend:wght@600&family=Poppins:wght@500;700&display=swap');
 
 #header {
     margin: 50px 180px auto 100px;
@@ -35,7 +35,6 @@
 }
 
 #detail-desc-cont-outer {
-    border: 2px solid palegreen;
     margin: 30px 750px auto 180px;
     display: flex;
     flex-direction: row;
@@ -49,7 +48,7 @@
 
 #detail-desc-cont-inner-right {
     width: 370px;
-    margin: 15px auto 20px 50px;
+    margin: 15px auto 50px 50px;
     background-color: #D9D9D9;
 }
 
@@ -85,6 +84,86 @@
 
 .second-sub-para {
     margin-top: 20px;
+}
+
+#summary-header {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#summary-desc {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    text-align: center;
+}
+
+#summary-pic {
+    width: 300px;
+    margin-left: 35px;
+    margin-top: 20px;
+    object-fit: cover;
+}
+
+#summary-pic-desc {
+    font-family: 'Abyssinica SIL', sans-serif;
+    color: #0064FA;
+    font-size: 13px;
+    text-align: center;
+}
+
+.summary-sub-headings {
+    font-family: 'Lexend', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #8F9B00;
+    color: white;
+}
+
+.summary-sub-headings:last-child {
+    background-color: #9B0054;
+}
+
+#summary-hyperlink {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    
+}
+
+#summary-hyperlink-font {
+    color: #2942CA;
+}
+
+#summary-animal-spec-details{
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.summary-spec-table-col {
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+    font-weight: 600;
+    font-size: 15px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+}
+
+.summary-spec-table-row {
+    padding-bottom: 50px;
+}
+
+.summary-spec-table-col:last-child {
+    color: #2942CA;
 }
 
 footer {
